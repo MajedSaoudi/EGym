@@ -15,8 +15,14 @@
     cursor: pointer;
     display: none;
   }
-  .checkbtn img{
+  .burger{
     height: 40px;
+  }
+  .close-png{
+    display: none;
+    padding: 6px;
+    height: 30px;
+    width: 38px;
   }
   #check{
     display: none;
@@ -40,11 +46,9 @@
         display: block !important;
         text-align: center;
         height: 100vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-        backdrop-filter: blur(50px);
-        -webkit-backdrop-filter: blur(100px);
+        background-color: rgb(26, 19, 19);
         text-align: center;
-        left:-200%;
+        right:-200%;
         text-align: center;
         transition: all .5s;
         z-index: 5;
@@ -60,7 +64,7 @@
         margin: 0;
       }
       #check:checked ~ .nav-ul{
-        left: 0;
+        right: 0;
         margin: 0;
       }
       
