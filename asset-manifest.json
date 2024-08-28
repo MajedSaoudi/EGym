@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EGym/static/css/main.366cc646.css",
-    "main.js": "/EGym/static/js/main.fab81f77.js",
+    "main.js": "/EGym/static/js/main.10c946f6.js",
     "static/css/51.f4b9e126.chunk.css": "/EGym/static/css/51.f4b9e126.chunk.css",
     "static/js/51.f7a64d6a.chunk.js": "/EGym/static/js/51.f7a64d6a.chunk.js",
     "static/media/Offer.jpg": "/EGym/static/media/Offer.ce6460c17c5072eda947.jpg",
@@ -14,12 +14,12 @@
     "static/media/flex.png": "/EGym/static/media/flex.4fb2bccb464c7a236958.png",
     "index.html": "/EGym/index.html",
     "main.366cc646.css.map": "/EGym/static/css/main.366cc646.css.map",
-    "main.fab81f77.js.map": "/EGym/static/js/main.fab81f77.js.map",
+    "main.10c946f6.js.map": "/EGym/static/js/main.10c946f6.js.map",
     "51.f4b9e126.chunk.css.map": "/EGym/static/css/51.f4b9e126.chunk.css.map",
     "51.f7a64d6a.chunk.js.map": "/EGym/static/js/51.f7a64d6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.366cc646.css",
-    "static/js/main.fab81f77.js"
+    "static/js/main.10c946f6.js"
   ]
 }
