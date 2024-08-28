@@ -8,13 +8,11 @@ import JoinUs from './JoinUs.jsx'
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
-    Link,
   } from "react-router-dom";
 
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "/EGym",
       element: <App />,
     },
     {
@@ -25,7 +23,7 @@ import {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={router} />
+  <RouterProvider router={router} basename='/EGym'/>
    
   
 );
