@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/EGym/static/css/main.366cc646.css",
+    "main.js": "/EGym/static/js/main.fab81f77.js",
+    "static/css/51.f4b9e126.chunk.css": "/EGym/static/css/51.f4b9e126.chunk.css",
+    "static/js/51.f7a64d6a.chunk.js": "/EGym/static/js/51.f7a64d6a.chunk.js",
+    "static/media/Offer.jpg": "/EGym/static/media/Offer.ce6460c17c5072eda947.jpg",
+    "static/media/membership.jpg": "/EGym/static/media/membership.652a34e97835de38a2b9.jpg",
+    "static/media/About.jpg": "/EGym/static/media/About.c1227a3fef34b3d84811.jpg",
+    "static/media/gym.jpg": "/EGym/static/media/gym.3a05465032e515b533cc.jpg",
+    "static/media/muscles.png": "/EGym/static/media/muscles.69f9fb8c9f76c685bba5.png",
+    "static/media/weightlifting.png": "/EGym/static/media/weightlifting.bb1c349f32f563ca5322.png",
+    "static/media/cardio.png": "/EGym/static/media/cardio.b4c04a4baeab9e919d84.png",
+    "static/media/flex.png": "/EGym/static/media/flex.4fb2bccb464c7a236958.png",
+    "index.html": "/EGym/index.html",
+    "main.366cc646.css.map": "/EGym/static/css/main.366cc646.css.map",
+    "main.fab81f77.js.map": "/EGym/static/js/main.fab81f77.js.map",
+    "51.f4b9e126.chunk.css.map": "/EGym/static/css/51.f4b9e126.chunk.css.map",
+    "51.f7a64d6a.chunk.js.map": "/EGym/static/js/51.f7a64d6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.366cc646.css",
+    "static/js/main.fab81f77.js"
+  ]
+}
