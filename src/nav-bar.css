@@ -1,0 +1,137 @@
+.Nav-bar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100000;
+    width: 100%;
+    backdrop-filter: blur(4px);
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  .checkbtn img{
+    height: 40px;
+  }
+  #check{
+    display: none;
+  }
+
+  @media  screen and (max-width: 900px){
+    .checkbtn{
+        display: block;
+      }
+    .Nav-bar{
+        margin-top: 10px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .Logo{
+      margin-left: 15px;
+    }
+    .nav-ul{
+        position: fixed;
+        width: 100%;
+        display: block !important;
+        text-align: center;
+        height: 100vh;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(100px);
+        text-align: center;
+        left:-200%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 5;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li{
+        display: block;
+        margin: 50px 0;     
+      }
+      nav ul li Link{
+        font-size: 20px;
+        margin: 0;
+      }
+      #check:checked ~ .nav-ul{
+        left: 0;
+        margin: 0;
+      }
+      
+  }
+
+.nav-li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    
+  }
+  .nav-li:hover{
+  cursor: pointer;
+}
+
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    margin: 16px;
+}
+
+
+.nav-a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    transition: 0.3;
+}
+.nav-a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.nav-a.active{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.Logo{
+    display: flex;
+    color: rgb(158, 76, 9);
+    font-family:cursive;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+  }
+.Logo:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

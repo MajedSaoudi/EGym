@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+   overflow-x: none;
+}
+html{
+    max-width: 100%;
+}
+.background{
+    max-height: 100vh;
+    max-width: 100%;
+    background-image: url(./assets/images/gym.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+

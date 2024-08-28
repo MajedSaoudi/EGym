@@ -1,0 +1,97 @@
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     height: 100vh;
+}
+.Home-container{
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(240, 236, 236, 0));
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 60%;
+}
+
+.tag{
+    font-size:50px;
+    color: white;
+}
+
+.mot{
+    display: flex;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+}
+.mot h1{
+    color: rgb(158, 76, 9);
+    font-size: 100px;
+    margin-right: 10px;
+}
+.mot2{
+    color: white;
+}
+
+.text{
+    font-size: 25px;
+    color: white;
+    font-family: bold;
+    margin: 10px;
+}
+
+.Join-Us{
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(158, 76, 9);
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    border: none;
+}
+
+.Join-Us:hover{
+    cursor: pointer;
+    transform: scale3d(1.5);
+    opacity: 0.9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+@media  (max-width: 1440px){
+    .tag{
+        font-size: 40px;
+    } 
+    .mot{
+        display: block;
+        font-size:80px;
+     }
+     .mot h1{
+        font-size: 80px;
+     }
+}
+@media  (max-width: 900px){
+    .tag {
+        font-size: 30px !important;
+    }
+    .mot{
+        font-size: 50px !important;
+    }
+    .mot h1{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 25px;
+    }
+}
+
+@media  (max-width: 700px){
+    .mot{
+        font-size: 40px !important;
+    }
+    .mot h1{
+        font-size: 40px;
+    }
+}

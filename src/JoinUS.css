@@ -1,0 +1,225 @@
+#JoinUs{
+    background-image: url(./assets/images/membership.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+.JoinUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: start;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+
+.Cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    height:75%;
+    text-align: center;
+    justify-content: center;
+}
+.Card{
+    
+    
+    display: flex;
+    text-align: start;
+    width: 300px;
+    padding: 30px;
+    height: 520px;
+    margin-right: 50px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(240, 236, 236, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.dollar{
+     font-size: 50px;
+     display: flex;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 10px;
+     line-height: 70px;
+}
+
+.Head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+.dollar p{
+    font-size: 15px;
+}
+.Char{
+    padding: 0;
+    padding-left: 10px;
+    height: 180px;
+}
+
+.Choose-plan{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 240px;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: rgb(158, 76, 9);
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-top: 25px;
+}
+
+.Choose-plan:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+hr{
+   margin-top:40px;
+   margin-bottom: 20px;
+}
+
+.Back{
+    padding: 10px;
+    position: fixed;
+    background-color: rgb(158, 76, 9);
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.Back:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.Back a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media  (max-width:1300px){
+     .Head{
+        text-align: center;
+     }
+     .par{
+        text-align: center;
+     }
+     .Card{
+        width: 260px;
+        height: 520px;
+        margin-right: 25px;
+    }
+}
+@media  (max-width:1036px){
+
+    .Card{
+       width: 200px;
+       height: 520px;
+       margin-right: 10px;
+   }
+   .Choose-plan{
+    width: 160px;
+    margin: 0;
+   }
+   .char{
+    height: 100px;
+   }
+}
+@media  (max-width:810px){
+    .Head{
+    font-size: 35px;
+    }
+    .par{
+        font-size: 15px;
+    }
+    .Card{
+        width: 140px;
+        height: 520px;
+        margin-right: 10px;
+    }
+    hr{
+        margin-top:20px;
+        margin-bottom: 20px;
+     }
+     .Char{
+        height: auto;
+     }
+     .Choose-plan{
+        width: 120px;
+        margin-top: 10px;
+       }
+       .Char li{
+        font-size: 12px;
+       }
+       .dollar{
+        font-size: 20px;
+        line-height: 35px;
+       }
+       .dollar p{
+        font-size: 12px;
+       }
+
+}
+@media  (max-width:632px){
+
+        .Card{
+            width: 100px;
+            height: 600px;
+            margin-right: 10px;
+        }
+    }
+@media  (max-width:510px){
+    .Head{
+        font-size: 30px;
+        margin-top: 12px;
+        }
+        .par{
+            font-size: 12px;
+        }
+        .Cards-container{
+            margin-top: 10px;
+        }
+        .Card{
+            margin-top: 10px;
+            padding: 20px;
+            width: 80px;
+            height: 500px;
+            margin-right: 10px;
+        }
+        .Card div h2{
+            font-size: 20px;
+        }
+        .Card div p{
+           font-size: 12px;
+        }
+        hr{
+            margin: 0;
+         }
+         .Char{
+            height: auto;
+         }
+         .Choose-plan{
+            width: 70px;
+            font-size: 12px;
+            margin-top: 10px;
+           }
+           .Char li{
+            font-size: 11px;
+            line-height: 20px;
+           }
+           .dollar{
+            font-size: 20px;
+            line-height: 30px;
+           }
+           .dollar p{
+            font-size: 12px;
+           }
+
+}
