@@ -28,7 +28,7 @@
     display: none;
   }
 
-  @media  screen and (max-width: 900px){
+  @media  screen and (max-width: 750px){
     .checkbtn{
         display: block;
       }
@@ -46,7 +46,7 @@
         display: block !important;
         text-align: center;
         height: 100vh;
-        background-color: rgb(26, 19, 19);
+        background-color: azure;
         text-align: center;
         right:-200%;
         text-align: center;
@@ -95,8 +95,8 @@
 }
 .nav-a{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 8px;
     text-decoration: none;
     color: black;
 }
@@ -109,6 +109,7 @@
     display: flex;
     color: rgb(158, 76, 9);
     font-family:cursive;
+    font-size: 30px;
     text-decoration: none;
 }
 

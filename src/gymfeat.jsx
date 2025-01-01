@@ -39,7 +39,7 @@ function Gymfeat (){
         <h1>Specific Muscle</h1>
         <h3 className='card-par'>
         Target specific muscles with precision and effectiveness using our specialized equipment.</h3>
-        
+   
         </div>
         </div>
         </div>

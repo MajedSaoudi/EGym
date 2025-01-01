@@ -2,7 +2,9 @@ import './nav-bar.css';
 import burger from './assets/images/menu.png';
 import {Link} from 'react-scroll';
 import { useState } from 'react';
-import close from './assets/images/closee.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import close from './assets/images/close.png';
 
 
 const closetag = {
@@ -22,7 +24,7 @@ function NavBar(){
 
     return(
          
-    <div className="Nav-bar">
+    <div className="Nav-bar" data-aos="fade-down">
           <Link to="Home" spy={true} smooth={true} duration={500}><h1 className='Logo'>EGym</h1></Link>
          
          
@@ -36,7 +38,7 @@ function NavBar(){
             !isOpen? null: closetag
           }/> 
           </label>
-          <ul className='nav-ul'>
+          <ul className='nav-ul' >
            <li className='nav-li'><Link to="Home" className="nav-a" spy={true} smooth={true} duration={500}>Home</Link></li>
            <li className='nav-li'><Link to='features' className="nav-a" spy={true} smooth={true}  duration={500}> Features</Link></li>
            <li className='nav-li'><Link to="Offer" className="nav-a" spy={true} smooth={true} duration={500}>Offer</Link></li>

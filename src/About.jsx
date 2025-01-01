@@ -1,32 +1,30 @@
 import Logo from './assets/images/About.jpg';
-import { useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './About.css';
 
 
 
-function About(){
-  const [isShowMore, setIsShowMore] = useState(false);
+function About() {
 
-const toggleReadMoreLess = () => {
-  setIsShowMore(!isShowMore);
-};
-console.log(isShowMore);
-    return(
-        <div className='About' id='About'>
-          <div className='About-bck'>
-              <img src={Logo} alt="Image contains I love Gym graphity" className='About-pic'/>
-          <div className='About-par-container'>
-            <div className='About-par'>
+
+
+  return (
+    <div className='About' id='About'>
+      <div className='About-bck'>
+        <img src={Logo} alt="Image contains I love Gym graphity" className='About-pic' data-aos="fade-right"/>
+        <div className='About-par-container'>
+          <div className='About-par'>
             <h1>LEARN MORE ABOUT US</h1>
-            <p> 
-Welcome to EGym, your ultimate destination for fitness, strength, and well-being. At EGym, we believe that everyone deserves a fit and healthy lifestyle, and we're here to help you achieve it.
+            <p>
+              Welcome to EGym, your ultimate destination for fitness, strength, and well-being. At EGym, we believe that everyone deserves a fit and healthy lifestyle, and we're here to help you achieve it.
 
 
-Our mission is simple: to empower individuals of all fitness levels to reach their goals in a supportive, inclusive, and motivating environment.</p>
-            </div>
-          </div>
+              Our mission is simple: to empower individuals of all fitness levels to reach their goals in a supportive, inclusive, and motivating environment.</p>
           </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 export default About;

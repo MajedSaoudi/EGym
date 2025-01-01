@@ -8,9 +8,10 @@ html{
 .background{
     max-height: 100vh;
     max-width: 100%;
-    background-image: url(./assets/images/gym.jpg);
+    background-image: url(./assets/images/Gym-Workout-Wallpaper-HD.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: fill;
     overflow-x: hidden;
 }
 h1{
