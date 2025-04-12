@@ -8,7 +8,7 @@ html{
 .background{
     max-height: 100vh;
     max-width: 100%;
-    background-image: url(./assets/images/Gym-Workout-Wallpaper-HD.jpg);
+    background-image: url("https://imgur.com/tYNCqXP.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: fill;

@@ -46,7 +46,7 @@
         display: block !important;
         text-align: center;
         height: 100vh;
-        background-color: azure;
+        background-color: antiquewhite;
         text-align: center;
         right:-200%;
         text-align: center;
@@ -57,7 +57,7 @@
       }
       nav ul li{
         display: block;
-        margin: 50px 0;     
+        margin: 15px 0;     
       }
       nav ul li Link{
         font-size: 20px;

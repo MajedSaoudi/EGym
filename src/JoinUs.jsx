@@ -13,7 +13,7 @@ function JoinUs (){
     return(
       
            <section id="JoinUs">
-              <button className='Back'><Link to="/EGym">Back</Link></button>
+              <Link to="/EGym"><button className='Back'>Back</button></Link>
             <div className="JoinUs">
               
                <div>

@@ -14,7 +14,7 @@ function Offer(){
            <div className='Home-container' data-aos="fade-up">
           <h1 className='mot2'>A BIG <h1>OFFER</h1>  FOR THIS SUMMER</h1>
 
-           <button className='Join-Us'><Link to="/JoinUs">JOIN NOW</Link> </button>
+          <Link to="/JoinUs"> <button className='Join-Us'>JOIN NOW </button></Link>
            </div>
            </div>
         </div>

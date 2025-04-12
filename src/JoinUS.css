@@ -1,5 +1,5 @@
 #JoinUs{
-    background-image: url(./assets/images/membership.jpg);
+    background-image: url("https://imgur.com/GoWJBY8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -94,6 +94,7 @@ hr{
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    color: white;
 }
 .Back:hover{
     cursor: pointer;

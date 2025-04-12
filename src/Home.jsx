@@ -14,7 +14,7 @@ function Home (){
           <h1 className='mot'><h1>FITNESS </h1> WITH US</h1>
           <p className='text'>Build Your Body And Fitness With Professional Touch</p>
           
-          <button className='Join-Us'><Link to="/JoinUs">JOIN US</Link></button>
+          <Link to="/JoinUs"> <button className='Join-Us'>JOIN US</button></Link>
       
           </div>
         </div>
